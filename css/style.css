@@ -24,6 +24,11 @@ nav a:hover {
 }
 
 /* Index Page  */
+.member-profile {
+  background-color: #e0f7f4;
+  padding: 2rem 0;
+}
+
 .food-menu {
   background-color: #006400;
   color: white;
