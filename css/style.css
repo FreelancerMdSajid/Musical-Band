@@ -1,24 +1,23 @@
-/* All Pages ----------- Navigation Bar & Footer */
+/* Navigation Bar & Footer */
 .navbar,
-.footer {
+footer {
   background-color: #0056b3;
   color: white;
+  font-weight: bold;
+}
+nav ul a {
+  color: #ffffff !important;
+}
+nav ul a:hover {
+  background-color: #04468b;
+  color: #000000 !important;
   font-weight: bold;
 }
 .active_nav {
   background-color: #0a75e7;
 }
-nav a:hover {
-  background-color: #04468b;
-  color: #000000 !important;
-  font-weight: bold;
-}
-.footer {
-  text-align: center;
-  padding: 1rem 0;
-}
 
-/* All Pages ----------- Section Heading Style  */
+/* Section Tittle Style  */
 .heading-border {
   border-bottom: 4px solid #212529;
 }
