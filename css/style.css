@@ -1,4 +1,4 @@
-/* Navigation Bar & Footer */
+/* ----------Navigation Bar & Footer----------- */
 .navbar,
 footer {
   background-color: #0056b3;
@@ -17,38 +17,19 @@ nav ul a:hover {
   background-color: #0a75e7;
 }
 
-/* Section Tittle Style  */
+/* ----------Section Tittle Style-----------  */
 .heading-border {
   border-bottom: 4px solid #212529;
 }
 
-/* Index Page  */
+/* --------------Index Page------------  */
+/* Band Details */
+.band-details {
+  background-color: #cfb4b4;
+}
+/* Members Profile  */
 .member-profile {
   background-color: #e0f7f4;
-  padding: 2rem 0;
-}
-
-.food-menu {
-  background-color: #006400;
-  color: white;
-  padding: 2rem 0;
-}
-.card-text-custom {
-  height: 200px;
-  overflow: hidden;
-  text-align: justify;
-}
-.customer-feedback {
-  background-color: #f8c8dc;
-  padding: 2rem 0;
-}
-.customer-feedback img {
-  width: 150px;
-  height: 150px;
-}
-.gallery {
-  background-color: #e0f7f4;
-  padding: 2rem 0;
 }
 .card {
   margin-bottom: 2rem;
@@ -57,27 +38,38 @@ nav ul a:hover {
   height: 200px;
   object-fit: cover;
 }
-
-/* About Page  */
-.staff-profile {
-  background-color: #e0f7f4;
-  padding: 2rem 0;
-}
-.about-company {
-  background-color: #f0f0f5;
-  padding: 2rem 0;
+.card-text-justify {
+  text-align: justify;
+  overflow: hidden;
 }
 .section-title {
   margin-bottom: 1rem;
 }
-.card-text-justify {
-  text-align: justify;
+/* Fans Feedback  */
+.fans-feedback {
+  background-color: #f8c8dc;
+}
+.fans-feedback img {
+  width: 150px;
+  height: 150px;
+}
+/* Gallery  */
+.gallery {
+  background-color: #e0f7f4;
+}
+/* -------------About Page-----------  */
+/* Stuff Profile  */
+.staff-profile {
+  background-color: #e0f7f4;
+}
+/* About Company  */
+.about-company {
+  background-color: #f0f0f5;
 }
 
-/* Contact Page  */
+/* -----------Contact Page-----------  */
 .contact-form {
   background-color: #e0f7f4;
-  padding: 2rem 0;
 }
 .contact-form form {
   background-color: #c8e6e0;
@@ -89,7 +81,7 @@ nav ul a:hover {
   margin-bottom: 1rem;
 }
 
-/* FAQ CSS  */
+/* ----------FAQ Page------------  */
 .faqQuestion {
   background-color: #bacec5;
   cursor: pointer;
