@@ -1,0 +1,119 @@
+/* All Pages ----------- Navigation Bar & Footer */
+.navbar,
+.footer {
+  background-color: #0056b3;
+  color: white;
+  font-weight: bold;
+}
+.active_nav {
+  background-color: #0a75e7;
+}
+nav a:hover {
+  background-color: #04468b;
+  color: #000000 !important;
+  font-weight: bold;
+}
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* All Pages ----------- Section Heading Style  */
+.heading-border {
+  border-bottom: 4px solid #212529;
+}
+
+/* Index Page  */
+.food-menu {
+  background-color: #006400;
+  color: white;
+  padding: 2rem 0;
+}
+.card-text-custom {
+  height: 200px;
+  overflow: hidden;
+  text-align: justify;
+}
+.customer-feedback {
+  background-color: #f8c8dc;
+  padding: 2rem 0;
+}
+.customer-feedback img {
+  width: 150px;
+  height: 150px;
+}
+.gallery {
+  background-color: #e0f7f4;
+  padding: 2rem 0;
+}
+.card {
+  margin-bottom: 2rem;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* About Page  */
+.staff-profile {
+  background-color: #e0f7f4;
+  padding: 2rem 0;
+}
+.about-company {
+  background-color: #f0f0f5;
+  padding: 2rem 0;
+}
+.section-title {
+  margin-bottom: 1rem;
+}
+.card-text-justify {
+  text-align: justify;
+}
+
+/* Contact Page  */
+.contact-form {
+  background-color: #e0f7f4;
+  padding: 2rem 0;
+}
+.contact-form form {
+  background-color: #c8e6e0;
+  padding: 2rem;
+  border-radius: 5px;
+  border: 1px solid #0056b3;
+}
+.form-control {
+  margin-bottom: 1rem;
+}
+
+/* FAQ CSS  */
+.faqQuestion {
+  background-color: #bacec5;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.acativefaq,
+.faqQuestion:hover {
+  background-color: #9eb1a8;
+}
+.faqQuestion:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.activefaq:after {
+  content: "\2212";
+}
+.faqAnswer {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

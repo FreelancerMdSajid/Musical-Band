@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shonar Bangla Music Contact</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <!-- bootstrap CSS Link  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="updateDateTime();">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Shonar Bangla Music</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active_nav" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center bg-primary text-white py-5 container-fluid">
+    <h1>Shonar Bangla Music</h1>
+    <h3>Quality Instruments. Expert Advice</h3>
+    <p>Play Your Passion to Life</p>
+    <p>EST. 2024</p>
+  </header>
+
+  <!-- Main content  -->
+  <main>
+    <!-- Contact -->
+    <section class="contact-form">
+      <div class="container">
+        <h2 class="text-center mb-4"><span class="heading-border">Contact Form</span></h2>
+        <form>
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter your address">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="number" class="form-control" id="phone" placeholder="Enter your phone number">
+          </div>
+          <button type="submit" class="btn btn-primary w-100" onclick="alertMassage()">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <p>Current Date & Time = <span id="dateTime"></span></p>
+  </footer>
+
+  <!-- All JS File Link  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

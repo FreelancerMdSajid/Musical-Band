@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shonar Bangla Music FAQ</title>
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <!-- bootstrap CSS Link  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="updateDateTime();">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Shonar Bangla Music</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link active_nav" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center bg-primary text-white py-5 container-fluid">
+    <h1>Shonar Bangla Music</h1>
+    <h3>Quality Instruments. Expert Advice</h3>
+    <p>Play Your Passion to Life</p>
+    <p>EST. 2024</p>
+  </header>
+
+  <main>
+    <!-- FAQ -->
+    <section class="p-4 bg-success-subtle">
+      <h3 class="text-center border-bottom pb-2"><span class="heading-border">Frequenty Asked Question</span></h3>
+      <button class="faqQuestion">What types of events does BD Food Shop cater?</button>
+      <div class="faqAnswer">
+        BD Food Shop caters a wide variety of events! We can handle everything from corporate lunches and business
+        meetings to weddings, birthday parties, graduation celebrations, and more.
+      </div>
+      <button class="faqQuestion">Do you offer customizable menus?</button>
+      <div class="faqAnswer">
+        Absolutely! We understand that every event is unique, which is why we work with you to create a menu that
+        perfectly fits your taste and budget. Whether you have dietary restrictions or a specific theme in mind, we can
+        create a menu that exceeds your expectations.
+      </div>
+      <button class="faqQuestion">How far in advance do I need to order catering?</button>
+      <div class="faqAnswer">
+        The ideal notice period depends on the size and complexity of your event. To ensure we have ample time to
+        prepare the freshest food and fulfill your specific requests, we recommend placing your order at least 72 hours
+        in advance. However, if your event is on a short timeline, feel free to contact us. We'll do our best to
+        accommodate your needs.
+      </div>
+      <button class="faqQuestion">Do you provide staff for catered events?</button>
+      <div class="faqAnswer">
+        Yes, BD Food Shop offers a range of staffing options to ensure your event runs smoothly. We can provide servers,
+        bartenders, and even chefs to take care of everything from food preparation and service to cleanup.
+      </div>
+      <button class="faqQuestion">What are your payment terms?</button>
+      <div class="faqAnswer">
+        We require a deposit of [percentage] to confirm your booking. The remaining balance is typically due [number]
+        days before your event. We accept various payment methods for your convenience. For further details on our
+        payment terms, please visit our "Order & Payment" page or contact us directly.
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <p>Current Date & Time = <span id="dateTime"></span></p>
+  </footer>
+
+  <!-- All JS File Link  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
